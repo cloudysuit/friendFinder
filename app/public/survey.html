@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>FF: Survey Time!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="https://use.fontawesome.com/28a2b82478.js"></script>
+
+	<!-- <script type="text/javascript" src="server.js"></script> -->
+
+
+</head>
+<body>
+<div class="jumbotron text-center">
+		<div class="container">
+			<h1 class="title"><i class="fa fa-snowflake-o" aria-hidden="true"></i>Friend Finder</h1>
+			<hr />
+			<h3 class="subtitle">Fill in the information below.</h3>
+			<a href="home.html"><button class="btn btn-lg btn-primary" id="home"><i class="fa fa-home" aria-hidden="true"></i>Home</button></a>
+			<a href="tables"><button class="btn btn-lg btn-danger" id="view-tables"><i class="fa fa-wpforms" aria-hidden="true"></i>View Tables</button></a>
+		</div>
+	</div>
+		<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+		    	<h3 class="panel-title">Personal Information</h3>
+		  	</div>		  
+		  <div class="panel-body">
+
+		   <form id="newFriendForm" method="POST" action="/MODAL"> <!-- this is where this info is going -->
+			  <div class="form-group">
+			    <label for="name">Name (Required)</label>
+			    <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+			  </div>
+			  <div class="form-group">
+			    <label for="phoneNumber">Link to Photo Image (Required)</label>
+			    <input type="text" name="phoneNumber" class="form-control" id="photoImage" placeholder="Link to photo">
+			  </div>
+
+
+			<h3><strong>Question 1</strong></h3>
+			<h3>Your Mom is awesome.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q1">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+				
+							
+
+			<h3><strong>Question 2</strong></h3>
+			<h3>You like music.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q2">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+				
+
+		<h3><strong>Question 3</strong></h3>
+		<h3>Dogs are neat.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q3">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+				
+		<h3><strong>Question 4</strong></h3>
+		<h3>I like the name Ivan.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q4">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+						
+		<h3><strong>Question 5</strong></h3>
+		<h3>I drive a van.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q5">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+      	<h3><strong>Question 6</strong></h3>
+		<h3>It's raining.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q6">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+				
+
+		<h3><strong>Question 7</strong></h3>
+		<h3>Purple is pretty.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q7">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+				
+
+		<h3><strong>Question 8</strong></h3>
+		<h3>Nightime is the right time.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q8">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+
+      	<h3><strong>Question 9</strong></h3>
+		<h3>Cats with accordions, amiright?</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q9">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+				
+
+		<h3><strong>Question 10</strong></h3>
+		<h3>Jodi Foster is the villain in the movie <em>Contact</em>.</h3>
+
+			  
+	 	<select data-placeholder="Select an option" class="chosen-select" id="q10">
+	 		<option value="">Select an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+			
+
+			<br>
+			<br>
+			<hr>		
+
+			  
+			<button type="submit" id="submit" class="btn btn-success">Submit</button>
+		  </form>
+		  </div>
+		</div>
+		<div id="links">
+			<p id="control-panel">Control Panel</p>
+			| <a href="/api/friends">API Friends</a> |
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	//click event targeting the submit button
+	//prevent default
+
+	$("#submit").on("click", function(event){
+		event.preventDefault();
+
+		var newFriend = {
+			name: $("#name").val().trim(),
+			photo: $("#photoImage").val().trim(),
+			scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+		};
+
+		//turns string values into integers
+			var yourScore = newFriend.scores
+
+			var integerScore = [parseInt(yourScore[0]),
+								parseInt(yourScore[1]),
+								parseInt(yourScore[2]),
+								parseInt(yourScore[3]),
+								parseInt(yourScore[4]),
+								parseInt(yourScore[5]),
+								parseInt(yourScore[6]),
+								parseInt(yourScore[7]),
+								parseInt(yourScore[8]),
+								parseInt(yourScore[9]),
+								];
+
+
+			console.log(integerScore);
+
+			//gets the sum of the new entry scores to be used for comparison
+		
+			var yourTotal = integerScore.reduce(function(total, num){
+				return total + num
+
+			}, 0);
+
+			console.log(yourTotal);
+
+		//trying to pull the info from the api and convert the score strings into integers so the sum can be configured. 
+		// $.ajax({
+
+		// 	url:"/api/friends",
+		// 	method: "GET"
+
+		// 		}).then(function(res){
+
+		// 			console.log(res);
+
+
+
+
+		// 	for (var i = 0; i < res.length; i++){
+
+		// 		console.log(res[i].scoresSum);
+		// 		// for(var j = 0; j < res[i].scores.length; j++){
+
+		// 		// 		var friendScore = res[i].scores.map()
+						
+		// 		// 		res[i].scores.map
+
+		// 		// 		console.log(res[i].scores);
+
+		// 		// 		console.log(res);
+
+
+		// 		// }
+		// 	}
+
+		// });
+
+		// console.log(friendScore);
+
+
+				
+
+
+		// 	("api/friends", function(req, res){
+		// 	for (var i = 0; res.length; i++){
+		// 		var friendScore = [parseInt(res[i].scores[0]),
+		// 							parseInt(res[i].scores[1]),
+		// 							parseInt(res[i].scores[2]),
+		// 							parseInt(res[i].scores[3]),
+		// 							parseInt(res[i].scores[4]),
+		// 							parseInt(res[i].scores[5]),
+		// 							parseInt(res[i].scores[6]),
+		// 							parseInt(res[i].scores[7]),
+		// 							parseInt(res[i].scores[8]),
+		// 							parseInt(res[i].scores[9]),
+		// 						];
+		// 	}
+
+		// });
+
+		// console.log(friendScore);
+
+
+//push the users new info to the api friendsList array 
+
+		$.post("api/friends", newFriend, function(data){
+			if(data){
+			
+			friendsList.push(newFriend);
+			
+			
+			}
+		});
+	});
+
+	
+
+	//compare logic will go in the click function? loop through the new friend...
+
+	//clear form when submitting 
+
+	</script>
+</body>
+</html>
